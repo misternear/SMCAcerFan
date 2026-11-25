@@ -1,0 +1,19 @@
+# Build outputs
+build/
+build-debug/
+*.o
+*.d
+*.kext/
+
+# Compiled CLI tools
+tools/smctest
+
+# Vendor SDK dependencies (fetched via build instructions)
+deps/
+
+# Editor & macOS files
+.DS_Store
+*.bak
+*.swp
+.vscode/
+.idea/
